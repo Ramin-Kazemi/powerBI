@@ -12,18 +12,18 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Cicalino
-Capture_Chart_Cicalino_1 = pd.read_excel("grafico-delle-catture (Cicalino 1).xls")
-Capture_Chart_Cicalino_2 = pd.read_excel("grafico-delle-catture (Cicalino 2).xls")
-Historical_Weather_Data_Cicalino_1 = pd.read_excel("dati-meteo-storici (Cicalino 1).xls")
-Historical_Weather_Data_Cicalino_2 = pd.read_excel("dati-meteo-storici (Cicalino 2).xls")
+Capture_Chart_Cicalino_1 = pd.read_excel("grafico-delle-catture-(Cicalino1).xls")
+Capture_Chart_Cicalino_2 = pd.read_excel("grafico-delle-catture-(Cicalino2).xls")
+Historical_Weather_Data_Cicalino_1 = pd.read_excel("dati-meteo-storici-(Cicalino1).xls")
+Historical_Weather_Data_Cicalino_2 = pd.read_excel("dati-meteo-storici-(Cicalino2).xls")
 
 # Imola
-Capture_Chart_Imola_1 = pd.read_excel("grafico-delle-catture (Imola 1).xls")
-Capture_Chart_Imola_2 = pd.read_excel("grafico-delle-catture (Imola 2).xls")
-Capture_Chart_Imola_3 = pd.read_excel("grafico-delle-catture (Imola 3).xls")
-Historical_Weather_Data_Imola_1 = pd.read_excel("dati-meteo-storici (Imola 1).xls")
-Historical_Weather_Data_Imola_2 = pd.read_excel("dati-meteo-storici (Imola 2).xls")
-Historical_Weather_Data_Imola_3 = pd.read_excel("dati-meteo-storici (Imola 3).xls")
+Capture_Chart_Imola_1 = pd.read_excel("grafico-delle-catture-(Imola1).xls")
+Capture_Chart_Imola_2 = pd.read_excel("grafico-delle-catture-(Imola2).xls")
+Capture_Chart_Imola_3 = pd.read_excel("grafico-delle-catture-(Imola3).xls")
+Historical_Weather_Data_Imola_1 = pd.read_excel("dati-meteo-storici-(Imola1).xls")
+Historical_Weather_Data_Imola_2 = pd.read_excel("dati-meteo-storici-(Imola2).xls")
+Historical_Weather_Data_Imola_3 = pd.read_excel("dati-meteo-storici-(Imola3).xls")
 
 # Showing first rows of each file for Cicalino
 print("** Capture Chart Cicalino 1 ** \n",Capture_Chart_Cicalino_1.head(), "\n")
