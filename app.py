@@ -1,5 +1,3 @@
-# Converted from Agritech_Pest_EDA_and_Preprocessing.ipynb
-
 # Import required libraries
 import os
 import pandas as pd
