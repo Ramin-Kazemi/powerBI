@@ -11,17 +11,19 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Read data
-Capture_Chart_Cicalino_1 = pd.read_csv('/content/AgritechPestDataset/Capture_Chart(Cicalino_1).csv')
-Capture_Chart_Cicalino_2 = pd.read_csv('/content/AgritechPestDataset/Capture_Chart(Cicalino_2).csv')
-Capture_Chart_Imola_1 = pd.read_csv('/content/AgritechPestDataset/Capture_Chart(Imola_1).csv')
-Capture_Chart_Imola_2 = pd.read_csv('/content/AgritechPestDataset/Capture_Chart(Imola_2).csv')
-Capture_Chart_Imola_3 = pd.read_csv('/content/AgritechPestDataset/Capture_Chart(Imola_3).csv')
-Historical_Weather_Data_Cicalino_1 = pd.read_csv('/content/AgritechPestDataset/Historical_Weather_Data(Cicalino_1).csv')
-Historical_Weather_Data_Cicalino_2 = pd.read_csv('/content/AgritechPestDataset/Historical_Weather_Data(Cicalino_2).csv')
-Historical_Weather_Data_Imola_1 = pd.read_csv('/content/AgritechPestDataset/Historical_Weather_Data(Imola_1).csv')
-Historical_Weather_Data_Imola_2 = pd.read_csv('/content/AgritechPestDataset/Historical_Weather_Data(Imola_2).csv')
-Historical_Weather_Data_Imola_3 = pd.read_csv('/content/AgritechPestDataset/Historical_Weather_Data(Imola_3).csv')
+# Cicalino
+Capture_Chart_Cicalino_1 = pd.read_excel("grafico-delle-catture (Cicalino 1).xls")
+Capture_Chart_Cicalino_2 = pd.read_excel("grafico-delle-catture (Cicalino 2).xls")
+Historical_Weather_Data_Cicalino_1 = pd.read_excel("dati-meteo-storici (Cicalino 1).xls")
+Historical_Weather_Data_Cicalino_2 = pd.read_excel("dati-meteo-storici (Cicalino 2).xls")
+
+# Imola
+Capture_Chart_Imola_1 = pd.read_excel("grafico-delle-catture (Imola 1).xls")
+Capture_Chart_Imola_2 = pd.read_excel("grafico-delle-catture (Imola 2).xls")
+Capture_Chart_Imola_3 = pd.read_excel("grafico-delle-catture (Imola 3).xls")
+Historical_Weather_Data_Imola_1 = pd.read_excel("dati-meteo-storici (Imola 1).xls")
+Historical_Weather_Data_Imola_2 = pd.read_excel("dati-meteo-storici (Imola 2).xls")
+Historical_Weather_Data_Imola_3 = pd.read_excel("dati-meteo-storici (Imola 3).xls")
 
 # Showing first rows of each file for Cicalino
 print("** Capture Chart Cicalino 1 ** \n",Capture_Chart_Cicalino_1.head(), "\n")
