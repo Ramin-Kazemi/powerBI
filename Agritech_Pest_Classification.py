@@ -33,7 +33,7 @@ def main():
 
 
     # Read data
-    FeatureExtracted_DS = pd.read_csv('/content/FeatureExtracted_dataset.csv')
+    FeatureExtracted_DS = pd.read_csv('FeatureExtracted_dataset.csv')
 
     # Showing first rows of preprocessed Agritech Pest dataset
     print(FeatureExtracted_DS.head())
