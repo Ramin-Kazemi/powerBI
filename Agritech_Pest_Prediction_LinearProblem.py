@@ -46,7 +46,7 @@ def main():
 
 
     # Read data
-    Final_Agritech_Pest_DS = pd.read_csv('/content/Final_Merged_Dataset_Cleaned.csv')
+    Final_Agritech_Pest_DS = pd.read_csv('Final_Merged_Dataset_Cleaned.csv')
 
     # Showing first rows of preprocessed Agritech Pest dataset
     print(Final_Agritech_Pest_DS.head())
