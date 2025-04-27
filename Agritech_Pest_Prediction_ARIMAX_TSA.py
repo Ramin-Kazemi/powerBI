@@ -41,7 +41,7 @@ def main():
 
 
     # Load datasets
-    FeatureExtracted_df = pd.read_csv('/content/FeatureExtracted_dataset.csv')
+    FeatureExtracted_df = pd.read_csv('FeatureExtracted_dataset.csv')
 
 
     # In[7]:
