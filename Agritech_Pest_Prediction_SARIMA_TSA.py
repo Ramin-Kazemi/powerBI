@@ -40,7 +40,7 @@ def main():
 
 
     # Load datasets
-    Merged_Dataset_df = pd.read_csv('/content/Final_Merged_Dataset_Cleaned.csv')
+    Merged_Dataset_df = pd.read_csv('Final_Merged_Dataset_Cleaned.csv')
 
 
     # In[4]:
